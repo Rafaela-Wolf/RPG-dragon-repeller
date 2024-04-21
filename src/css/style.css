@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/background-dragon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+}
+
+#stats,
+#controls {
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+    padding: 5px;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+#controls .btn {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+}
+
+#monster-stats {
+    display: none;
+    border: 1px solid #0a0a23;
+    background-color: #c70d0d;
+    color: #ffffff;
+    padding: 5px;
+}
+
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
